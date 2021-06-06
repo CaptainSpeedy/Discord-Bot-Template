@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 const config = require("./config.json");
 
 bot.once('ready', () => {
-    bot.user.setActivity(`Custom Status Here`, { type: "WATCHING"})
+    bot.user.setActivity(`h!`, { type: "WATCHING"})
     console.log('Online');    
 });
 
