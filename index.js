@@ -1,11 +1,11 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client()
-const PREFIX = "YOUR_PREFIX_HERE"
+const PREFIX = "h!"
 
-bot.login("TOKEN_HERE")
+bot.login("ODUwMjAwMTUyMjY5OTE0MTIz.YLmQmA.0GHYDO5TfiN1nzvf-OUTWg2fn6A")
 
 bot.on("ready", () => {
-    console.log("Moderation bot by Oofy is booted up :D")
+    console.log("HyloreMC ModBot Is now Up:D")
 });
 
 bot.on("message", message => {
